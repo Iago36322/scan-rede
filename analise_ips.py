@@ -23,7 +23,7 @@ while True:
             if ip['estado_atual'] == False and ip['desligada'] == False:
                 ip['desligada'] = True
                 while True:
-                    println(antenas_lista[0],antenas_lista[1])
+                    #println(antenas_lista[0],antenas_lista[1])
                     timer = tools.timeout(ip['timeout'])   
                     ip['timeout'] = timer
                     if timer >= tempo_reboot:
@@ -53,7 +53,7 @@ while True:
             tools.logserver('servidor','sem internet',mudanca)  
         else:
             tools.logserver('servidor','internet restabelecida',mudanca)  
-    println(antenas_lista[0],antenas_lista[1],internet)
+    #println(antenas_lista[0],antenas_lista[1],internet)
     internet_ant = internet
     mudanca = True
 
