@@ -1,0 +1,27 @@
+# O simbolo "#" sinaliza comentario.
+
+#sede da fazenda:
+
+    #roteador principal
+        10.0.1.1
+
+    #antenas torre principal
+        
+
+#campo:
+
+    #rebate bombeamento
+        
+
+    #antenas pivo
+        10.0.1.101:8080
+
+    #roteador pivo
+        
+
+    
+
+
+
+
+
